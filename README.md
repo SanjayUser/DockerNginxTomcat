@@ -25,5 +25,6 @@ Credits to:
 
 * if you get error 
 01-Sep-2017 05:56:12.958 WARNING [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: Error at (130, 114) : org.apache.catalina.tribes.group.interceptors.MessageDispatch15Interceptor
+
 Solution:
 comment out the line 130 in server.xml
