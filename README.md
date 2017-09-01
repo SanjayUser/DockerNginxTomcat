@@ -21,3 +21,9 @@ Credits to:
 * Dylan Wang for his NGINX build with HTTP/2 enabled: [ehekatl/docker-nginx-http2](https://hub.docker.com/r/ehekatl/docker-nginx-http2/).  Note that the standard build of NGINX does not enable HTTP/2 by default
 * Evan Brown for demontrating how to enable HTTPS [ployst/docker-nginx-ssl-proxy](https://github.com/ployst/docker-nginx-ssl-proxy) - including instructions on [refreshing certificates](https://github.com/ployst/docker-nginx-ssl-proxy#generating-test-certificates)
 * GoSquared for the flag images https://www.gosquared.com/resources/flag-icons/
+
+
+* if you get error 
+01-Sep-2017 05:56:12.958 WARNING [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: Error at (130, 114) : org.apache.catalina.tribes.group.interceptors.MessageDispatch15Interceptor
+Solution:
+comment out the line 130 in server.xml
